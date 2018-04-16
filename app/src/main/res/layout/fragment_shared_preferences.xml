@@ -1,0 +1,105 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/shared_preferences_fragment_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/shared_preferences_fragment_root_padding">
+
+        <TextView
+            style="@style/TextLabelStyle"
+            android:text="@string/shared_preferences_fragment_first_name_label" />
+
+        <EditText
+            android:id="@+id/shared_preferences_fragment_firstname_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/shared_preferences_fragment_first_name_hint"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/TextLabelStyle"
+            android:layout_marginTop="@dimen/shared_preferences_fragment_labels_top_margin"
+            android:text="@string/shared_preferences_fragment_family_name_label" />
+
+        <EditText
+            android:id="@+id/shared_preferences_fragment_familyname_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/shared_preferences_fragment_family_name_hint"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/TextLabelStyle"
+            android:layout_marginTop="@dimen/shared_preferences_fragment_labels_top_margin"
+            android:text="@string/shared_preferences_fragment_age_label" />
+
+        <EditText
+            android:id="@+id/shared_preferences_fragment_age_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/shared_preferences_fragment_age_hint"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/TextLabelStyle"
+            android:layout_marginTop="@dimen/shared_preferences_fragment_labels_top_margin"
+            android:text="@string/shared_preferences_fragment_languages_label" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/shared_preferences_fragment_java_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shared_preferences_fragment_java_text" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/shared_preferences_fragment_kotlin_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shared_preferences_fragment_kotlin_text" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/shared_preferences_fragment_csharp_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shared_preferences_fragment_csharp_text" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/shared_preferences_fragment_ruby_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shared_preferences_fragment_ruby_text" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/shared_preferences_fragment_python_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shared_preferences_fragment_python_text" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/shared_preferences_fragment_others_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shared_preferences_fragment_others_text" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/shared_preferences_fragment_close_cardview_button"
+            style="@style/CardViewButtonStyle"
+            android:layout_marginBottom="@dimen/shared_preferences_fragment_cardview_margin_bottom"
+            android:layout_marginTop="@dimen/shared_preferences_fragment_cardview_margin_top"
+            android:elevation="@dimen/shared_preferences_fragment_cardview_elevation"
+            app:cardCornerRadius="@dimen/shared_preferences_fragment_cardview_corner_radius">
+
+            <TextView
+                style="@style/CardViewButtonTextStyle"
+                android:text="@string/shared_preferences_fragment_cardview_text" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

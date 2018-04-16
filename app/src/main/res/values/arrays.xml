@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Array of Strings used in the Picasso Fragment to get the path to the Images downloaded from internet -->
+    <string-array name="picasso_network_images_url_list">
+        <item>@string/picasso_network_path_london</item>
+        <item>@string/picasso_network_path_new_york</item>
+        <item>@string/picasso_network_path_paris</item>
+        <item>@string/picasso_network_path_berlin</item>
+        <item>@string/picasso_network_path_san_francisco</item>
+        <item>@string/picasso_network_path_washington</item>
+        <item>@string/picasso_network_path_shanghai</item>
+        <item>@string/picasso_network_path_venice</item>
+        <item>@string/picasso_network_path_greece</item>
+        <item>@string/picasso_network_path_japan</item>
+        <item>@string/picasso_network_path_canada</item>
+        <item>@string/picasso_network_path_new_orleans</item>
+        <item>@string/picasso_network_path_caribbean</item>
+        <item>@string/picasso_network_path_bora_bora</item>
+        <item>@string/picasso_network_path_mont_saint_michel</item>
+        <item>@string/picasso_network_path_taj_mahal</item>
+        <item>@string/picasso_network_path_rome</item>
+        <item>@string/picasso_network_path_toronto</item>
+        <item>@string/picasso_network_path_miami</item>
+        <item>@string/picasso_network_path_sydney</item>
+        <item>@string/picasso_network_path_chicago</item>
+        <item>@string/picasso_network_path_kuala_lumpur</item>
+        <item>@string/picasso_network_path_stockholm</item>
+        <item>@string/picasso_network_path_valencia</item>
+    </string-array>
+
+    <!-- Array of Resources used in the Picasso Fragment to get the Image Resources -->
+    <integer-array name="picasso_resource_images_list">
+        <item>@drawable/little_dog</item>
+        <item>@drawable/pinguins</item>
+        <item>@drawable/wolves</item>
+        <item>@drawable/fish</item>
+        <item>@drawable/grizzly_bear</item>
+        <item>@drawable/koala</item>
+        <item>@drawable/seal</item>
+        <item>@drawable/hedgehog</item>
+        <item>@drawable/delphins</item>
+        <item>@drawable/bear</item>
+        <item>@drawable/elephants</item>
+        <item>@drawable/toy</item>
+        <item>@drawable/pig</item>
+        <item>@drawable/squirrel</item>
+        <item>@drawable/tiger</item>
+        <item>@drawable/lemur</item>
+        <item>@drawable/lamb</item>
+        <item>@drawable/donkey</item>
+        <item>@drawable/zebra</item>
+        <item>@drawable/gorilla</item>
+        <item>@drawable/horses</item>
+        <item>@drawable/rabbits</item>
+        <item>@drawable/king_lion</item>
+        <item>@drawable/eagle</item>
+    </integer-array>
+
+    <!-- Array of Strings used in the Picasso Fragment to populate the Menu Dialog -->
+    <string-array name="picasso_fragment_menu_items">
+        <item>@string/picasso_fragment_menu_resources</item>
+        <item>@string/picasso_fragment_menu_network</item>
+        <item>@string/picasso_fragment_menu_files</item>
+    </string-array>
+
+    <!-- Array of Strings used in the Settings Fragment to populate the List Preference -->
+    <string-array name="years_to_filter_from_network_array">
+        <item>@string/networking_year_2014_for_http_request</item>
+        <item>@string/networking_year_2015_for_http_request</item>
+        <item>@string/networking_year_2016_for_http_request</item>
+        <item>@string/networking_year_2017_for_http_request</item>
+    </string-array>
+
+</resources>

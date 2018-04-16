@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_touch_selector"
+    android:gravity="center_vertical"
+    android:padding="@dimen/contact_item_layout_padding"
+    android:paddingStart="@dimen/contact_item_layout_padding_start">
+
+    <TextView
+        android:id="@+id/contact_item_name"
+        android:layout_width="@dimen/contact_item_textview_width"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/contact_item_name_textview_marginend"
+        android:layout_marginStart="@dimen/contact_item_name_textview_marginstart"
+        android:layout_marginTop="@dimen/contact_item_name_textview_margintop"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/contact_item_name_textview_text_size"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/contact_item_picture"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mobile_phone_icon"
+        android:layout_width="@dimen/contact_item_icon_imageview_size"
+        android:layout_height="@dimen/contact_item_icon_imageview_size"
+        android:layout_marginStart="@dimen/contact_item_icon_imageview_margin_start_top"
+        android:layout_marginTop="@dimen/contact_item_icon_imageview_margin_start_top"
+        android:src="@mipmap/mobile_phone_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_item_name" />
+
+    <ImageView
+        android:id="@+id/gray_email_icon"
+        android:layout_width="@dimen/contact_item_icon_imageview_size"
+        android:layout_height="@dimen/contact_item_icon_imageview_size"
+        android:layout_marginStart="@dimen/contact_item_icon_imageview_margin_start_top"
+        android:layout_marginTop="@dimen/contact_item_icon_imageview_margin_start_top"
+        android:src="@mipmap/gray_email_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile_phone_icon" />
+
+    <ImageView
+        android:id="@+id/city_icon"
+        android:layout_width="@dimen/contact_item_icon_imageview_size"
+        android:layout_height="@dimen/contact_item_icon_imageview_size"
+        android:layout_marginStart="@dimen/contact_item_icon_imageview_margin_start_top"
+        android:layout_marginTop="@dimen/contact_item_icon_imageview_margin_start_top"
+        android:src="@mipmap/city_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gray_email_icon" />
+
+    <TextView
+        android:id="@+id/contact_item_phone_number"
+        style="@style/ContactItemInfoStyle"
+        android:layout_width="@dimen/contact_item_textview_width"
+        android:layout_height="@dimen/contact_item_textview_height"
+        android:layout_marginBottom="@dimen/contact_item_textview_margin_top_bottom"
+        android:layout_marginEnd="@dimen/contact_item_textview_margin_end"
+        android:layout_marginStart="@dimen/contact_item_textview_margin_start"
+        android:layout_marginTop="@dimen/contact_item_textview_margin_top_bottom"
+        app:layout_constraintBottom_toTopOf="@+id/contact_item_email_address"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/mobile_phone_icon"
+        app:layout_constraintRight_toLeftOf="@+id/contact_item_picture"
+        app:layout_constraintTop_toTopOf="@+id/mobile_phone_icon"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/contact_item_email_address"
+        style="@style/ContactItemInfoStyle"
+        android:layout_width="@dimen/contact_item_textview_width"
+        android:layout_height="@dimen/contact_item_textview_height"
+        android:layout_marginEnd="@dimen/contact_item_textview_margin_end"
+        android:layout_marginStart="@dimen/contact_item_textview_margin_start"
+        android:layout_marginTop="@dimen/contact_item_textview_margin_top_bottom"
+        android:textStyle="italic"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/gray_email_icon"
+        app:layout_constraintRight_toLeftOf="@+id/contact_item_picture"
+        app:layout_constraintTop_toTopOf="@+id/gray_email_icon" />
+
+    <TextView
+        android:id="@+id/contact_item_city"
+        style="@style/ContactItemInfoStyle"
+        android:layout_width="@dimen/contact_item_textview_width"
+        android:layout_height="@dimen/contact_item_textview_height"
+        android:layout_marginEnd="@dimen/contact_item_textview_margin_end"
+        android:layout_marginStart="@dimen/contact_item_textview_margin_start"
+        android:layout_marginTop="@dimen/contact_item_textview_margin_top_bottom"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/city_icon"
+        app:layout_constraintRight_toLeftOf="@+id/contact_item_picture"
+        app:layout_constraintTop_toTopOf="@+id/city_icon" />
+
+    <ImageView
+        android:id="@+id/contact_item_picture"
+        android:layout_width="@dimen/contact_item_picture_imageview_size"
+        android:layout_height="@dimen/contact_item_picture_imageview_size"
+        android:layout_marginBottom="@dimen/contact_item_picture_imageview_margin_top_bottom"
+        android:layout_marginEnd="@dimen/contact_item_picture_imageview_margin_top_end"
+        android:layout_marginTop="@dimen/contact_item_picture_imageview_margin_top_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/contact_item_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

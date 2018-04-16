@@ -1,0 +1,67 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/movie_item_cardview_content_layout_padding_top_bottom"
+    android:paddingEnd="@dimen/movie_item_cardview_content_layout_padding_start_end"
+    android:paddingStart="@dimen/movie_item_cardview_content_layout_padding_start_end"
+    android:paddingTop="@dimen/movie_item_cardview_content_layout_padding_top_bottom">
+
+    <com.mudassirkhan.androidportfolio.ui.uielements.CustomCardImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="@dimen/movie_item_cardview_content_imageview_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/movie_item_cardview_content_margins"
+        android:layout_marginEnd="@dimen/movie_item_cardview_content_margins"
+        android:layout_marginStart="@dimen/movie_item_cardview_content_margins"
+        android:layout_marginTop="@dimen/movie_item_cardview_content_margins"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@+id/movie_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="@dimen/movie_item_cardview_content_textviews_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/movie_item_cardview_content_margins"
+        android:layout_marginEnd="@dimen/movie_item_cardview_content_margins"
+        android:layout_marginStart="@dimen/movie_item_cardview_content_margins"
+        android:maxLines="2"
+        android:minLines="2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/movie_release_date"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/movie_release_date"
+        android:layout_width="@dimen/movie_item_cardview_content_textviews_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/movie_item_cardview_content_margins"
+        android:layout_marginEnd="@dimen/movie_item_cardview_content_margins"
+        android:layout_marginStart="@dimen/movie_item_cardview_content_margins"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/movie_vote_average"
+        app:layout_constraintLeft_toLeftOf="@+id/movie_title"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <RatingBar
+        android:id="@+id/movie_vote_average"
+        style="?attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/movie_item_cardview_content_margins"
+        android:layout_marginStart="@dimen/movie_item_cardview_content_margins"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:theme="@style/RatingBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

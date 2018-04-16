@@ -1,0 +1,406 @@
+{
+  "page": 1,
+  "total_results": 3029,
+  "total_pages": 152,
+  "results": [
+    {
+      "vote_count": 2750,
+      "id": 283366,
+      "video": false,
+      "vote_average": 6.5,
+      "title": "Miss Peregrine's Home for Peculiar Children",
+      "popularity": 29.056599,
+      "poster_path": "miss_peregrine",
+      "original_language": "en",
+      "original_title": "Miss Peregrine's Home for Peculiar Children",
+      "genre_ids": [
+        18,
+        14,
+        12
+      ],
+      "backdrop_path": "/9BVHn78oQcFCRd4M3u3NT7OrhTk.jpg",
+      "adult": false,
+      "overview": "A teenager finds himself transported to an island where he must help protect a group of orphans with special powers from creatures intent on destroying them.",
+      "release_date": "2016-09-28"
+    },
+    {
+      "vote_count": 4972,
+      "id": 329865,
+      "video": false,
+      "vote_average": 7.1,
+      "title": "Arrival",
+      "popularity": 15.077993,
+      "poster_path": "arrival",
+      "original_language": "en",
+      "original_title": "Arrival",
+      "genre_ids": [
+        53,
+        18,
+        878,
+        9648
+      ],
+      "backdrop_path": "/yIZ1xendyqKvY3FGeeUYUd5X9Mm.jpg",
+      "adult": false,
+      "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+      "release_date": "2016-11-10"
+    },
+    {
+      "vote_count": 2735,
+      "id": 324786,
+      "video": false,
+      "vote_average": 7.7,
+      "title": "Hacksaw Ridge",
+      "popularity": 12.88602,
+      "poster_path": "hacksaw_ridge",
+      "original_language": "en",
+      "original_title": "Hacksaw Ridge",
+      "genre_ids": [
+        18,
+        36,
+        10752
+      ],
+      "backdrop_path": "/zBK4QZONMQXhcgaJv1YYTdCW7q9.jpg",
+      "adult": false,
+      "overview": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to win the Congressional Medal of Honor.",
+      "release_date": "2016-10-07"
+    },
+    {
+      "vote_count": 3952,
+      "id": 313369,
+      "video": false,
+      "vote_average": 7.8,
+      "title": "La La Land",
+      "popularity": 12.080899,
+      "poster_path": "lalaland",
+      "original_language": "en",
+      "original_title": "La La Land",
+      "genre_ids": [
+        35,
+        18,
+        10402,
+        10749
+      ],
+      "backdrop_path": "/fp6X6yhgcxzxCpmM0EVC6V9B8XB.jpg",
+      "adult": false,
+      "overview": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+      "release_date": "2016-11-29"
+    },
+    {
+      "vote_count": 2053,
+      "id": 335797,
+      "video": false,
+      "vote_average": 6.8,
+      "title": "Sing",
+      "popularity": 10.075113,
+      "poster_path": "sing",
+      "original_language": "en",
+      "original_title": "Sing",
+      "genre_ids": [
+        16,
+        35,
+        18,
+        10751,
+        10402
+      ],
+      "backdrop_path": "/usJKCEMXV3tECgIJj8ZTEndmY2E.jpg",
+      "adult": false,
+      "overview": "A koala named Buster recruits his best friend to help him drum up business for his theater by hosting a singing competition.",
+      "release_date": "2016-11-23"
+    },
+    {
+      "vote_count": 720,
+      "id": 372058,
+      "video": false,
+      "vote_average": 8.4,
+      "title": "Your Name.",
+      "popularity": 9.211197,
+      "poster_path": "your_name",
+      "original_language": "ja",
+      "original_title": "君の名は。",
+      "genre_ids": [
+        16,
+        18,
+        14,
+        10749
+      ],
+      "backdrop_path": "/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+      "adult": false,
+      "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+      "release_date": "2016-08-26"
+    },
+    {
+      "vote_count": 1795,
+      "id": 381284,
+      "video": false,
+      "vote_average": 7.8,
+      "title": "Hidden Figures",
+      "popularity": 8.630264,
+      "poster_path": "hidden_figures",
+      "original_language": "en",
+      "original_title": "Hidden Figures",
+      "genre_ids": [
+        36,
+        18
+      ],
+      "backdrop_path": "/kJJ50CR1ktLIHyBHuAXeili85rZ.jpg",
+      "adult": false,
+      "overview": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
+      "release_date": "2016-12-10"
+    },
+    {
+      "vote_count": 2681,
+      "id": 278927,
+      "video": false,
+      "vote_average": 6.7,
+      "title": "The Jungle Book",
+      "popularity": 8.561757,
+      "poster_path": "the_jungle_book",
+      "original_language": "en",
+      "original_title": "The Jungle Book",
+      "genre_ids": [
+        12,
+        18,
+        14
+      ],
+      "backdrop_path": "/eIOTsGg9FCVrBc4r2nXaV61JF4F.jpg",
+      "adult": false,
+      "overview": "After a threat from the tiger Shere Khan forces him to flee the jungle, a man-cub named Mowgli embarks on a journey of self discovery with the help of panther, Bagheera, and free spirited bear, Baloo.",
+      "release_date": "2016-04-07"
+    },
+    {
+      "vote_count": 266,
+      "id": 393519,
+      "video": false,
+      "vote_average": 7,
+      "title": "Raw",
+      "popularity": 8.31433,
+      "poster_path": "raw",
+      "original_language": "fr",
+      "original_title": "Grave",
+      "genre_ids": [
+        18,
+        27
+      ],
+      "backdrop_path": "/uIemwfHFSVc6SkWxHx4f16hewUa.jpg",
+      "adult": false,
+      "overview": "In Justine’s family everyone is a vet and a vegetarian. At 16, she’s a gifted teen ready to take on her first year in vet school, where her older sister also studies. There, she gets no time to settle: hazing starts right away. Justine is forced to eat raw meat for the first time in her life. Unexpected consequences emerge as her true self begins to form.",
+      "release_date": "2016-10-07"
+    },
+    {
+      "vote_count": 1243,
+      "id": 345920,
+      "video": false,
+      "vote_average": 6.8,
+      "title": "Collateral Beauty",
+      "popularity": 8.254593,
+      "poster_path": "collateral_beauty",
+      "original_language": "en",
+      "original_title": "Collateral Beauty",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "backdrop_path": "/e6LQF9pmUB82UL1NPyBAgVX72Um.jpg",
+      "adult": false,
+      "overview": "Retreating from life after a tragedy, a man questions the universe by writing to Love, Time and Death. Receiving unexpected answers, he begins to see how these things interlock and how even loss can reveal moments of meaning and beauty.",
+      "release_date": "2016-12-06"
+    },
+    {
+      "vote_count": 1352,
+      "id": 290595,
+      "video": false,
+      "vote_average": 6,
+      "title": "The Huntsman: Winter's War",
+      "popularity": 8.072705,
+      "poster_path": "the_huntsman",
+      "original_language": "en",
+      "original_title": "The Huntsman: Winter's War",
+      "genre_ids": [
+        28,
+        12,
+        18
+      ],
+      "backdrop_path": "/eKlDbRUZRxxyQ6aFOPwaE7xBinD.jpg",
+      "adult": false,
+      "overview": "As two evil sisters prepare to conquer the land, two renegades - Eric the Huntsman - who aided Snow White in defeating Ravenna in Snowwhite and the Huntsman, and his forbidden lover, Sara, set out to stop them.",
+      "release_date": "2016-04-06"
+    },
+    {
+      "vote_count": 1825,
+      "id": 363676,
+      "video": false,
+      "vote_average": 7,
+      "title": "Sully",
+      "popularity": 8.048731,
+      "poster_path": "sully",
+      "original_language": "en",
+      "original_title": "Sully",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "backdrop_path": "/vC9H1ZVdXi1KjH4aPfGB54mvDNh.jpg",
+      "adult": false,
+      "overview": "On 15 January 2009, the world witnessed the 'Miracle on the Hudson' when Captain 'Sully' Sullenberger glided his disabled plane onto the frigid waters of the Hudson River, saving the lives of all 155 aboard. However, even as Sully was being heralded by the public and the media for his unprecedented feat of aviation skill, an investigation was unfolding that threatened to destroy his reputation and career.",
+      "release_date": "2016-09-07"
+    },
+    {
+      "vote_count": 1119,
+      "id": 338766,
+      "video": false,
+      "vote_average": 7.2,
+      "title": "Hell or High Water",
+      "popularity": 8.012317,
+      "poster_path": "hell_or_high_water",
+      "original_language": "en",
+      "original_title": "Hell or High Water",
+      "genre_ids": [
+        80,
+        18,
+        53,
+        37
+      ],
+      "backdrop_path": "/5GbRKOQSY08U3SQXXcQAKEnL2rE.jpg",
+      "adult": false,
+      "overview": "A divorced dad and his ex-con brother resort to a desperate scheme in order to save their family's farm in West Texas.",
+      "release_date": "2016-08-12"
+    },
+    {
+      "vote_count": 3491,
+      "id": 274870,
+      "video": false,
+      "vote_average": 6.7,
+      "title": "Passengers",
+      "popularity": 7.961874,
+      "poster_path": "passengers",
+      "original_language": "en",
+      "original_title": "Passengers",
+      "genre_ids": [
+        12,
+        18,
+        10749,
+        878
+      ],
+      "backdrop_path": "/5EW4TR3fWEqpKsWysNcBMtz9Sgp.jpg",
+      "adult": false,
+      "overview": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+      "release_date": "2016-12-21"
+    },
+    {
+      "vote_count": 1572,
+      "id": 346685,
+      "video": false,
+      "vote_average": 6.2,
+      "title": "The Girl on the Train",
+      "popularity": 7.777015,
+      "poster_path": "the_girl_on_the_train",
+      "original_language": "en",
+      "original_title": "The Girl on the Train",
+      "genre_ids": [
+        80,
+        18,
+        9648,
+        10749,
+        53
+      ],
+      "backdrop_path": "/j8wWhGekyBPlgf2viVkptfwOyWi.jpg",
+      "adult": false,
+      "overview": "Rachel Watson, devastated by her recent divorce, spends her daily commute fantasizing about the seemingly perfect couple who live in a house that her train passes every day, until one morning she sees something shocking happen there and becomes entangled in the mystery that unfolds.",
+      "release_date": "2016-10-05"
+    },
+    {
+      "vote_count": 1,
+      "id": 425849,
+      "video": false,
+      "vote_average": 1,
+      "title": "2 Cool 2 Be 4gotten",
+      "popularity": 7.704558,
+      "poster_path": "too_cool_to_be_forgotten",
+      "original_language": "en",
+      "original_title": "2 Cool 2 Be 4gotten",
+      "genre_ids": [
+        18
+      ],
+      "backdrop_path": "/eNtQ5cBE3e2ac96avd62rKqwY6y.jpg",
+      "adult": false,
+      "overview": "Felix is a friendless achiever in high school whose life changes after the arrival of the half-American Snyder brothers, entangling him in their dark ambitions.",
+      "release_date": "2016-11-17"
+    },
+    {
+      "vote_count": 839,
+      "id": 258230,
+      "video": false,
+      "vote_average": 6.6,
+      "title": "A Monster Calls",
+      "popularity": 7.685543,
+      "poster_path": "a_monster_calls",
+      "original_language": "en",
+      "original_title": "A Monster Calls",
+      "genre_ids": [
+        18,
+        14
+      ],
+      "backdrop_path": "/xVW8REyVqKwxAtUYY07UGlZH43L.jpg",
+      "adult": false,
+      "overview": "A boy imagines a monster that helps him deal with his difficult life and see the world in a different way.",
+      "release_date": "2016-10-07"
+    },
+    {
+      "vote_count": 1366,
+      "id": 334543,
+      "video": false,
+      "vote_average": 8,
+      "title": "Lion",
+      "popularity": 7.631098,
+      "poster_path": "lion",
+      "original_language": "en",
+      "original_title": "Lion",
+      "genre_ids": [
+        18
+      ],
+      "backdrop_path": "/gEPkCIAy8kHsCsPJNDM3Ml0LJ9l.jpg",
+      "adult": false,
+      "overview": "A five-year-old Indian boy gets lost on the streets of Calcutta, thousands of kilometers from home. He survives many challenges before being adopted by a couple in Australia; 25 years later, he sets out to find his lost family.",
+      "release_date": "2016-11-24"
+    },
+    {
+      "vote_count": 1224,
+      "id": 334533,
+      "video": false,
+      "vote_average": 7.9,
+      "title": "Captain Fantastic",
+      "popularity": 7.382084,
+      "poster_path": "captain_fantastic",
+      "original_language": "en",
+      "original_title": "Captain Fantastic",
+      "genre_ids": [
+        12,
+        35,
+        18,
+        10749
+      ],
+      "backdrop_path": "/hzp6irYITiJc5JUA1GZhmbE10pD.jpg",
+      "adult": false,
+      "overview": "A father living in the forests of the Pacific Northwest with his six young kids tries to assimilate back into society.",
+      "release_date": "2016-07-02"
+    },
+    {
+      "vote_count": 1322,
+      "id": 334541,
+      "video": false,
+      "vote_average": 7.5,
+      "title": "Manchester by the Sea",
+      "popularity": 7.191763,
+      "poster_path": "manchester_by_the_sea",
+      "original_language": "en",
+      "original_title": "Manchester by the Sea",
+      "genre_ids": [
+        18
+      ],
+      "backdrop_path": "/urSqvE0AyIHkYogUsQaVAmZrN0M.jpg",
+      "adult": false,
+      "overview": "After his older brother passes away, Lee Chandler is forced to return home to care for his 16-year-old nephew. There he is compelled to deal with a tragic past that separated him from his family and the community where he was born and raised.",
+      "release_date": "2016-11-18"
+    }
+  ]
+}

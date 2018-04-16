@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Boolean resource used as a default value for the "Sorted by vote average" preference -->
+    <bool name="network_movie_sorted_by_vote_average_default">false</bool>
+</resources>

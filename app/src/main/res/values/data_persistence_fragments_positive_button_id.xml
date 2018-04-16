@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Id resource used to set an Id dynamically in the Data Persistence Fragments -->
+    <item name="data_persistence_alert_dialog_positive_button_id" type="id" />
+</resources>

@@ -1,0 +1,191 @@
+<resources>
+
+    <!-- Our App's Theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Splash Screen Activity -->
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+
+
+    <!-- Main Activity -->
+    <style name="MainActivityTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="MainActivityCollapsedToolbarStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainActivityFabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fab_colorPressed">@color/colorPrimaryDark</item>
+        <item name="fab_colorRipple">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <!-- Portfolio Item Activity -->
+    <style name="RecyclerviewsActivityTheme" parent="AppTheme">
+        <item name="colorAccent">@color/recyclerviews_activity_accent_color</item>
+    </style>
+
+    <style name="NetworkingActivityTheme" parent="AppTheme">
+        <item name="colorAccent">@color/network_activity_accent_color</item>
+    </style>
+
+    <style name="DataPersistenceActivityTheme" parent="AppTheme">
+        <item name="colorAccent">@color/data_persistence_activity_accent_color</item>
+    </style>
+
+    <style name="JsonParsingActivityTheme" parent="AppTheme">
+        <item name="colorAccent">@color/json_parsing_activity_accent_color</item>
+    </style>
+
+    <style name="ThirdPartyLibrairiesActivityTheme" parent="AppTheme">
+        <item name="colorAccent">@color/third_party_librairies_activity_accent_color</item>
+    </style>
+
+    <style name="SystemIntegrationActivityTheme" parent="AppTheme">
+        <item name="colorAccent">@color/system_integration_activity_accent_color</item>
+    </style>
+
+    <style name="MyPortfolioItemActivityToolbarMenuStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TabLayoutUnderlineColor" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Settings Activity -->
+    <style name="SettingsActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+
+    <!-- Horizontal RecyclerViews Fragment -->
+    <style name="HorizontalRecyclerViewsFragmentCardviewsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">
+            @dimen/horizontal_recyclerviews_fragment_cardviews_margin_start_end
+        </item>
+        <item name="android:layout_marginStart">
+            @dimen/horizontal_recyclerviews_fragment_cardviews_margin_start_end
+        </item>
+        <item name="android:layout_marginTop">
+            @dimen/horizontal_recyclerviews_fragment_cardviews_margin_top
+        </item>
+    </style>
+
+    <style name="HorizontalRecyclerViewsFragmentFabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/plus_icon_big</item>
+        <item name="android:layout_margin">@dimen/horizontal_recyclerviews_fragment_fabs_margin
+        </item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="HorizontalRecyclerViewsFragmentLabelStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/horizontal_recyclerviews_fragment_labels_margin
+        </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/horizontal_recyclerviews_fragment_labels_size</item>
+    </style>
+
+
+    <!-- Broadcast Receivers Fragment -->
+    <style name="BroadcastReceiverFragmentTitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/broadcast_receiver_fragment_labels_text_size</item>
+    </style>
+
+    <style name="BroadcastReceiverFragmentImageStyle">
+        <item name="android:layout_width">@dimen/broadcast_receiver_fragment_imageviews_size</item>
+        <item name="android:layout_height">@dimen/broadcast_receiver_fragment_imageviews_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/rounded_background_drawable</item>
+    </style>
+
+    <style name="BroadcastReceiverFragmentStateTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">@dimen/broadcast_receiver_fragment_content_textviews_padding
+        </item>
+    </style>
+
+
+    <!-- File Fragment -->
+    <style name="FileFragmentFloatingActionButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/file_fragment_fabs_margin</item>
+    </style>
+
+
+    <!-- CardView Buttons -->
+    <style name="CardViewButtonStyle">
+        <item name="android:layout_width">@dimen/cardview_buttons_width</item>
+        <item name="android:layout_height">@dimen/cardview_buttons_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="CardViewButtonTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/cardview_buttons_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Contact Item -->
+    <style name="ContactItemInfoStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">@dimen/contact_item_textview_size</item>
+    </style>
+
+
+    <!-- Text Labels -->
+    <style name="TextLabelStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/label_and_content_textviews_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Rating Bar -->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/ratingBarYellow</item>
+    </style>
+
+</resources>

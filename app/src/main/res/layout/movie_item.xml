@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_touch_selector"
+    android:orientation="horizontal"
+    android:padding="@dimen/movie_item_layout_padding">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="@dimen/movie_item_imageview_width"
+        android:layout_height="@dimen/movie_item_imageview_height" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/movie_item_constraint_layout_padding_start">
+
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="@dimen/movie_item_textviews_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/movie_item_title_textview_margin_end"
+            android:layout_marginStart="@dimen/movie_item_title_textview_margin_start"
+            android:layout_marginTop="@dimen/movie_item_title_textview_margin_top"
+            android:maxLines="4"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/movie_genres"
+            android:layout_width="@dimen/movie_item_textviews_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/movie_item_genre_textview_margin_end"
+            android:layout_marginStart="@dimen/movie_item_genre_textview_margin_start"
+            android:layout_marginTop="@dimen/movie_item_genre_textview_margin_top"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/movie_title" />
+
+        <TextView
+            android:id="@+id/movie_release_date"
+            android:layout_width="@dimen/movie_item_textviews_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/movie_item_release_date_textview_margin_bottom"
+            android:layout_marginEnd="@dimen/movie_item_release_date_textview_margin_end"
+            android:layout_marginStart="@dimen/movie_item_release_date_textview_margin_start"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/movie_vote_average"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <RatingBar
+            android:id="@+id/movie_vote_average"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/movie_item_average_rating_bar_margin_bottom"
+            android:layout_marginStart="@dimen/movie_item_average_rating_bar_margin_start"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:paddingBottom="@dimen/movie_item_average_rating_bar_padding_bottom"
+            android:stepSize="0.5"
+            android:theme="@style/RatingBar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Principal colors -->
+    <color name="colorPrimary">#283279</color>
+    <color name="colorPrimaryDark">#1a2151</color>
+    <color name="colorPrimaryLight">#3f51b5</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="light_grey">#E0E0E0</color>
+    <color name="very_light_grey">#F0F0F0</color>
+    <color name="ratingBarYellow">#FFdF00</color>
+
+    <!-- Colors used in the PortfolioItem Activity as Accent Colors (They are all the same for
+     now, but I will leave it this way in case I want to change it in the future) -->
+    <color name="recyclerviews_activity_accent_color">@color/colorPrimary</color>
+    <color name="network_activity_accent_color">@color/colorPrimary</color>
+    <color name="data_persistence_activity_accent_color">@color/colorPrimary</color>
+    <color name="json_parsing_activity_accent_color">@color/colorPrimary</color>
+    <color name="third_party_librairies_activity_accent_color">@color/colorPrimary</color>
+    <color name="system_integration_activity_accent_color">@color/colorPrimary</color>
+    <color name="colorPrimarypreferences_activity_accent_color">@color/colorPrimary</color>
+</resources>
+

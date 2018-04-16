@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Integer resource used as a default value for the EditText Preference in the Preference Fragment -->
+    <integer name="settings_edittext_default_value">5</integer>
+
+    <!-- Integer resources used for the RecyclerView divider -->
+    <integer name="recyclerviews_separator_padding_left">215</integer>
+    <integer name="recyclerviews_separator_padding_right">50</integer>
+
+    <!-- Integer resources used for the Widget -->
+    <integer name="widget_min_width_for_displaying_icon">200</integer>
+    <integer name="widget_update_time_frame">604800000</integer>
+
+    <!-- Integer resource used as the delay to open the PortfolioItem Activity after clicking the Fab Menu -->
+    <integer name="delay_before_launching_intent_when_fab_menu_open">400</integer>
+
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Activity -->
+    <dimen name="main_activity_toolbar_image_width">90dp</dimen>
+    <dimen name="main_activity_toolbar_image_height">90dp</dimen>
+    <dimen name="main_activity_toolbar_textviews_size">18sp</dimen>
+    <dimen name="main_activity_toolbar_title_padding_top">10dp</dimen>
+    <dimen name="main_activity_toolbar_linear_layout_padding_bottom">22dp</dimen>
+    <dimen name="main_activity_toolbar_linear_layout_padding_top">35dp</dimen>
+    <dimen name="main_activity_toolbar_elevation">16dp</dimen>
+    <dimen name="main_activity_toolbar_imageview_margin_top">20dp</dimen>
+    <dimen name="main_activity_appbar_height">225dp</dimen>
+    <dimen name="navigation_drawer_header_height">200dp</dimen>
+    <dimen name="navigation_drawer_padding_left">20dp</dimen>
+    <dimen name="navigation_drawer_image_width">70dp</dimen>
+    <dimen name="navigation_drawer_image_height">70dp</dimen>
+    <dimen name="navigation_drawer_title_padding_top">14dp</dimen>
+    <dimen name="navigation_drawer_description_padding_bottom">22dp</dimen>
+    <dimen name="portfolio_item_height">80dp</dimen>
+    <dimen name="portfolio_item_image_width">48dp</dimen>
+    <dimen name="portfolio_item_image_height">48dp</dimen>
+    <dimen name="portfolio_item_padding">16dp</dimen>
+    <dimen name="portfolio_item_texts_padding">16dp</dimen>
+    <dimen name="portfolio_item_textviews_separation_padding">2dp</dimen>
+    <dimen name="portfolio_item_texts_size">16sp</dimen>
+
+    <!-- PortfolioItem Activity -->
+    <dimen name="portfolio_item_activity_toolbar_text_size">18sp</dimen>
+    <dimen name="portfolio_item_activity_toolbar_text_padding_left">15dp</dimen>
+    <dimen name="portfolio_item_activity_toolbar_image_width">30dp</dimen>
+    <dimen name="portfolio_item_activity_toolbar_image_height">30dp</dimen>
+
+    <!--  Movie Fragments -->
+    <dimen name="fragment_recyclerview_progress_bar_margin_top">150dp</dimen>
+    <dimen name="fragment_recyclerview_empty_view_image_width">80dp</dimen>
+    <dimen name="fragment_recyclerview_empty_view_image_height">80dp</dimen>
+    <dimen name="fragment_recyclerview_empty_view_text_size">16sp</dimen>
+
+    <!-- Normal Movie Item -->
+    <dimen name="movie_item_imageview_width">80dp</dimen>
+    <dimen name="movie_item_imageview_height">120dp</dimen>
+    <dimen name="movie_item_constraint_layout_padding_start">4dp</dimen>
+    <dimen name="movie_item_title_textview_margin_start">4dp</dimen>
+    <dimen name="movie_item_title_textview_margin_end">4dp</dimen>
+    <dimen name="movie_item_title_textview_margin_top">0dp</dimen>
+    <dimen name="movie_item_genre_textview_margin_top">2dp</dimen>
+    <dimen name="movie_item_genre_textview_margin_start">4dp</dimen>
+    <dimen name="movie_item_genre_textview_margin_end">4dp</dimen>
+    <dimen name="movie_item_release_date_textview_margin_bottom">0dp</dimen>
+    <dimen name="movie_item_release_date_textview_margin_start">4dp</dimen>
+    <dimen name="movie_item_release_date_textview_margin_end">4dp</dimen>
+    <dimen name="movie_item_average_rating_bar_padding_bottom">4dp</dimen>
+    <dimen name="movie_item_average_rating_bar_margin_bottom">4dp</dimen>
+    <dimen name="movie_item_average_rating_bar_margin_start">4dp</dimen>
+    <dimen name="movie_item_textviews_width">0dp</dimen>
+    <dimen name="movie_item_layout_padding">6dp</dimen>
+
+    <!-- CardView Movie Item -->
+    <dimen name="movie_item_cardview_margin">3dp</dimen>
+    <dimen name="movie_item_cardview_cardview_margin">2dp</dimen>
+    <dimen name="movie_item_cardview_content_layout_padding_top_bottom">6dp</dimen>
+    <dimen name="movie_item_cardview_content_layout_padding_start_end">4dp</dimen>
+    <dimen name="movie_item_cardview_content_margins">0dp</dimen>
+    <dimen name="movie_item_cardview_content_textviews_width">0dp</dimen>
+    <dimen name="movie_item_cardview_content_imageview_width">0dp</dimen>
+    <dimen name="movie_item_cardview_horizontal_recyclerviews_cardview_corner_radius">2dp</dimen>
+    <dimen name="movie_item_cardview_horizontal_recyclerviews_cardview_margin">5dp</dimen>
+    <dimen name="movie_item_cardview_horizontal_recyclerviews_cardview_width">127dp</dimen>
+
+    <!-- Contact Fragments -->
+    <dimen name="contact_alert_dialog_button_text_size">10sp</dimen>
+    <dimen name="contact_alert_dialog_button_margin">0dp</dimen>
+    <dimen name="contact_alert_dialog_layout_padding_left_right">30dp</dimen>
+    <dimen name="contact_alert_dialog_layout_padding_top">15dp</dimen>
+    <dimen name="contact_alert_dialog_textviews_margin_top">10dp</dimen>
+    <dimen name="contact_alert_dialog_constraintlayout_margin_top">5dp</dimen>
+    <dimen name="contact_alert_dialog_picture_file_name_textview_margin">8dp</dimen>
+    <dimen name="contact_alert_dialog_remove_picture_button_width_height">30dp</dimen>
+    <dimen name="contact_alert_dialog_remove_picture_button_margin">8dp</dimen>
+    <dimen name="contact_alert_dialog_picture_file_name_textview_width">0dp</dimen>
+    <dimen name="contact_item_layout_padding">16dp</dimen>
+    <dimen name="contact_item_layout_padding_start">20dp</dimen>
+    <dimen name="contact_item_name_textview_text_size">18sp</dimen>
+    <dimen name="contact_item_name_textview_margintop">0dp</dimen>
+    <dimen name="contact_item_name_textview_marginend">8dp</dimen>
+    <dimen name="contact_item_name_textview_marginstart">5dp</dimen>
+    <dimen name="contact_item_icon_imageview_size">25dp</dimen>
+    <dimen name="contact_item_icon_imageview_margin_start_top">0dp</dimen>
+    <dimen name="contact_item_textview_width">0dp</dimen>
+    <dimen name="contact_item_textview_height">25dp</dimen>
+    <dimen name="contact_item_textview_margin_start">4dp</dimen>
+    <dimen name="contact_item_textview_margin_end">8dp</dimen>
+    <dimen name="contact_item_textview_margin_top_bottom">0dp</dimen>
+    <dimen name="contact_item_picture_imageview_size">80dp</dimen>
+    <dimen name="contact_item_picture_imageview_margin_top_bottom">8dp</dimen>
+    <dimen name="contact_item_picture_imageview_margin_top_end">0dp</dimen>
+    <dimen name="contact_item_textview_size">14sp</dimen>
+
+    <!-- Custom Preference Item  -->
+    <dimen name="custom_preference_frame_layout_margin_end">12dp</dimen>
+    <dimen name="custom_preference_frame_layout_margin_start">-4dp</dimen>
+    <dimen name="custom_preference_frame_layout_min_width">48dp</dimen>
+    <dimen name="custom_preference_imageview_size">48dp</dimen>
+    <dimen name="custom_preference_content_linear_layout_width">0dp</dimen>
+    <dimen name="custom_preference_content_linear_layout_padding_top_bottom">16dp</dimen>
+    <dimen name="custom_preference_linear_layout_widget_frame_margin_end">-16dp</dimen>
+    <dimen name="custom_preference_linear_layout_widget_frame_padding_left_right">16dp</dimen>
+
+    <!-- Broadcast Receiver Fragment -->
+    <dimen name="broadcast_receiver_fragment_root_view_padding">24dp</dimen>
+    <dimen name="broadcast_receiver_fragment_labels_text_size">18sp</dimen>
+    <dimen name="broadcast_receiver_fragment_content_linear_layouts_margin_top">15dp</dimen>
+    <dimen name="broadcast_receiver_fragment_container_linear_layouts_margin_top">25dp</dimen>
+    <dimen name="broadcast_receiver_fragment_imageviews_size">40dp</dimen>
+    <dimen name="broadcast_receiver_fragment_content_textviews_padding">15dp</dimen>
+    <dimen name="broadcast_receiver_fragment_cardviews_margin_top">20dp</dimen>
+    <dimen name="broadcast_receiver_fragment_cardviews_margin_bottom">8dp</dimen>
+
+    <!-- Content Provider Fragment Bis -->
+    <dimen name="content_provider_fragment_bis_cardviews_text_size">16sp</dimen>
+    <dimen name="content_provider_fragment_bis_main_layout_padding">24dp</dimen>
+    <dimen name="content_provider_fragment_bis_content_textviews_width">0dp</dimen>
+    <dimen name="content_provider_fragment_bis_end_time_label_margin_top">20dp</dimen>
+    <dimen name="content_provider_fragment_bis_choose_calendar_label_margin_top">20dp</dimen>
+    <dimen name="content_provider_fragment_bis_event_label_margin_top">30dp</dimen>
+    <dimen name="content_provider_fragment_bis_event_description_label_margin_top">10dp</dimen>
+    <dimen name="content_provider_fragment_bis_add_event_cardview_margin_top">40dp</dimen>
+    <dimen name="content_provider_fragment_bis_cardviews_elevation">8dp</dimen>
+    <dimen name="content_provider_fragment_bis_fab_elevation">16dp</dimen>
+    <dimen name="content_provider_fragment_bis_cardviews_corner_radius">8dp</dimen>
+    <dimen name="content_provider_fragment_bis_goto_cardviews_margin_bottom">8dp</dimen>
+    <dimen name="content_provider_fragment_bis_goto_cardviews_margin_top">20dp</dimen>
+    <dimen name="content_provider_fragment_bis_contact_phone_label_margin_top">20dp</dimen>
+    <dimen name="content_provider_fragment_bis_contact_email_label_margin_top">20dp</dimen>
+    <dimen name="content_provider_fragment_bis_add_contact_cardview_button_margin_top">40dp</dimen>
+
+    <!-- Horizontal RecycleViews Fragment -->
+    <dimen name="horizontal_recyclerviews_fragment_cardviews_corner_radius">4dp</dimen>
+    <dimen name="horizontal_recyclerviews_fragment_cardviews_margin_start_end">6dp</dimen>
+    <dimen name="horizontal_recyclerviews_fragment_cardviews_margin_top">12dp</dimen>
+    <dimen name="horizontal_recyclerviews_fragment_cardviews_elevation">16dp</dimen>
+    <dimen name="horizontal_recyclerviews_fragment_fabs_margin">8dp</dimen>
+    <dimen name="horizontal_recyclerviews_fragment_labels_margin">14dp</dimen>
+    <dimen name="horizontal_recyclerviews_fragment_last_cardview_margin_bottom">12dp</dimen>
+    <dimen name="horizontal_recyclerviews_fragment_labels_size">18sp</dimen>
+
+    <!-- Job Scheduling Fragment -->
+    <dimen name="job_scheduling_fragment_layout_padding">24dp</dimen>
+    <dimen name="job_scheduling_fragment_label_text_size">18sp</dimen>
+    <dimen name="job_scheduling_fragment_cardview_corner_radius">8dp</dimen>
+    <dimen name="job_scheduling_fragment_cardview_margin_top">20dp</dimen>
+    <dimen name="job_scheduling_fragment_cardview_elevation">8dp</dimen>
+    <dimen name="job_scheduling_fragment_cardview_margin_bottom">8dp</dimen>
+    <dimen name="job_scheduling_fragment_cardview_text_size">16sp</dimen>
+
+    <!-- Notifications Fragment-->
+    <dimen name="notifications_fragment_layout_margin">24dp</dimen>
+    <dimen name="notifications_fragment_labels_text_size">18sp</dimen>
+    <dimen name="notifications_fragment_cardview_text_size">16sp</dimen>
+    <dimen name="notifications_fragment_imageview_size">160dp</dimen>
+    <dimen name="notifications_fragment_choose_icon_label_margin_top">20dp</dimen>
+    <dimen name="notifications_fragment_imageview_margin_top">10dp</dimen>
+    <dimen name="notifications_fragment_cardview_corner_radius">8dp</dimen>
+    <dimen name="notifications_fragment_cardview_margin_top">20dp</dimen>
+    <dimen name="notifications_fragment_cardview_elevation">8dp</dimen>
+
+    <!-- Shared Preferences Fragment-->
+    <dimen name="shared_preferences_fragment_labels_text_size">18sp</dimen>
+    <dimen name="shared_preferences_fragment_cardview_text_size">16sp</dimen>
+    <dimen name="shared_preferences_fragment_root_padding">24dp</dimen>
+    <dimen name="shared_preferences_fragment_labels_top_margin">20dp</dimen>
+    <dimen name="shared_preferences_fragment_cardview_corner_radius">8dp</dimen>
+    <dimen name="shared_preferences_fragment_cardview_elevation">8dp</dimen>
+    <dimen name="shared_preferences_fragment_cardview_margin_top">20dp</dimen>
+    <dimen name="shared_preferences_fragment_cardview_margin_bottom">8dp</dimen>
+
+    <!-- File Fragment-->
+    <dimen name="file_fragment_imageview_size">320dp</dimen>
+    <dimen name="file_fragment_imageview_margin_top">30dp</dimen>
+    <dimen name="file_fragment_fabs_margin">16dp</dimen>
+    <dimen name="file_fragment_fabs_linear_layout_height">0dp</dimen>
+
+    <!-- Widget Fragment-->
+    <dimen name="widget_fragment_layout_padding">36dp</dimen>
+    <dimen name="widget_fragment_textview_margin_top">140dp</dimen>
+    <dimen name="widget_fragment_textview_text_size">18sp</dimen>
+
+    <!-- Picasso Fragment -->
+    <dimen name="picasso_fragment_recyclerview_margin_top">2dp</dimen>
+    <dimen name="picasso_item_imageview_margin">2dp</dimen>
+    <dimen name="picasso_item_height">200dp</dimen>
+
+    <!-- Actual Widget -->
+    <dimen name="small_widget_width">150dp</dimen>
+    <dimen name="small_widget_image_width">100dp</dimen>
+    <dimen name="small_widget_image_height">100dp</dimen>
+    <dimen name="small_widget_textviews_text_size">18sp</dimen>
+    <dimen name="widget_min_height">100dp</dimen>
+    <dimen name="widget_min_width">150dp</dimen>
+
+    <!-- CardView Buttons -->
+    <dimen name="cardview_buttons_width">200dp</dimen>
+    <dimen name="cardview_buttons_height">40dp</dimen>
+    <dimen name="cardview_buttons_corner_radius">8dp</dimen>
+    <dimen name="cardview_buttons_text_size">16sp</dimen>
+    <dimen name="cardview_buttons_elevation">8dp</dimen>
+
+    <!-- Labels and normal content -->
+    <dimen name="label_and_content_textviews_size">18sp</dimen>
+
+    <!-- Floating Action Buttons -->
+    <dimen name="fab_margin_right">8dp</dimen>
+    <dimen name="fab_margin_bottom">8dp</dimen>
+
+    <!-- Snack Bar -->
+    <dimen name="portfolio_items_activity_snackbar_padding">10dp</dimen>
+    <dimen name="portfolio_items_activity_snackbar_content_text_size">16sp</dimen>
+    <dimen name="portfolio_items_activity_snackbar_labels_margin_top">15dp</dimen>
+
+    <!-- Splash Screen -->
+    <dimen name="splash_screen_icon_size">80dp</dimen>
+
+</resources>

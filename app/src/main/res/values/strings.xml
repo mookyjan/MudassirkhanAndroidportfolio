@@ -1,0 +1,477 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Application's name -->
+    <string name="app_name" translatable="false">Mudassir Khan\'s Android Portfolio</string>
+
+    <!-- Main Activity -->
+    <string name="main_activity_toolbar_name" translatable="false">Mudassir Khan</string>
+    <string name="main_activity_toolbar_description">Android Developer</string>
+    <string name="main_activity_collapsed_toolbar_title" translatable="false">MK\'s Android Portfolio</string>
+    <string name="navigation_drawer_name" translatable="false">Mudassir Khan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_websites_title">Check my Web Pages</string>
+    <string name="navigation_drawer_websites_my_site">My Website</string>
+    <string name="navigation_drawer_websites_linkedin">Linkedin / CV</string>
+    <string name="navigation_drawer_websites_github" translatable="false">Github</string>
+    <string name="navigation_drawer_settings">Settings</string>
+    <string name="navigation_drawer_my_website_url" translatable="false">https://github.com/mookyjan</string>
+    <string name="navigation_drawer_linkedin_scheme" translatable="false">linkedin://</string>
+    <string name="navigation_drawer_linkedin_url" translatable="false">https://www.linkedin.com/in/</string>
+    <string name="navigation_drawer_linkedin_id" translatable="false">mudassir-khan-a8a3997b</string>
+    <string name="navigation_drawer_github_url" translatable="false">https://github.com/mookyjan</string>
+    <string name="floating_action_phone_label">Phone</string>
+    <string name="floating_action_sms_label">SMS</string>
+    <string name="floating_action_email_label">Email</string>
+    <string name="floating_action_menu_label">Contact me</string>
+
+    <!-- Main Activity's RecyclerView's content-->
+    <string name="portfolio_item_networking_title">Networking</string>
+    <string name="portfolio_item_networking_description">Native HTTP connection, Volley, Okhttp, Retrofit</string>
+    <string name="portfolio_item_recyclerviews_title">RecyclerViews</string>
+    <string name="portfolio_item_recyclerviews_description">Vertical RecyclerView, Card Views, Grid RecyclerView, Horizontal RecyclerViews</string>
+    <string name="portfolio_item_data_persistence_title">Data persistence</string>
+    <string name="portfolio_item_data_persistence_description">Native SQLite, Content Providers, Realm, Shared Preferences, Files</string>
+    <string name="portfolio_item_json_parsing_title">Json Parsing</string>
+    <string name="portfolio_item_json_parsing_description">Native JSON parsing, GSON</string>
+    <string name="portfolio_item_third_party_libraries_title">Third Party Libraries</string>
+    <string name="portfolio_item_third_party_libraries_description">Picasso, Volley, Okhttp, Retrofit, GSON, Realm</string>
+    <string name="portfolio_item_system_integration_title">System Integration</string>
+    <string name="portfolio_item_system_integration_description">Notifications, Job scheduling, Broadcast Receivers, Widgets</string>
+    <string name="portfolio_item_preferences_title">Settings</string>
+    <string name="portfolio_item_preferences_description">Preferences, Shared Preferences, Listeners</string>
+
+    <!-- Main Activity's Implicit Intents -->
+    <string name="intents_my_phone_number" translatable="false">+923122015297</string>
+    <string name="intents_my_email_address" translatable="false">mudassir45khan@yahoo.com</string>
+    <string name="intents_message_content">Hi Mudassir!\nHow are you doing?\nI think you\'ve got great skills in Android Development.\nWhy don\'t we get in touch?</string>
+    <string name="intents_message_subject">I loved your Portfolio App!</string>
+    <string name="intents_share_title">Choose an App to share with</string>
+    <string name="intents_share_content">Hi there!\nLet me share with you this great Android App I just found:\n<xliff:g>%1$s</xliff:g></string>
+    <string name="intents_share_content_playstore_url" translatable="false">https://play.google.com/store/apps/details?id=</string>
+    <string name="intents_share">Share</string>
+
+    <!-- Main Activity's Explicit Intents to PortfolioItem Activities -->
+    <string name="main_from_detail_activity_title_tag" translatable="false">title</string>
+    <string name="main_from_detail_activity_icon_tag" translatable="false">icon</string>
+    <string name="main_from_detail_activity_background_color_tag" translatable="false">icon background color</string>
+
+    <!-- Portfolio Item Activity-->
+    <string name="information_menu_item">Info</string>
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Portfolio Item Activity's Fragment's tabs names -->
+    <string name="fragment_tab_name_native_http">Native Http</string>
+    <string name="fragment_tab_name_retrofit">Retrofit</string>
+    <string name="fragment_tab_name_okhttp">Okhttp</string>
+    <string name="fragment_tab_name_Volley">Volley</string>
+    <string name="fragment_tab_name_native_json_parsing">Native Json Parsing</string>
+    <string name="fragment_tab_name_gson_parsing">Gson</string>
+    <string name="fragment_tab_name_linear_vertical_recyclerview">Vertical RecyclerView</string>
+    <string name="fragment_tab_name_linear_horizontal_recyclerview">Horizontal RecyclerViews</string>
+    <string name="fragment_tab_name_card_grid_recyclerview">Card Views</string>
+    <string name="fragment_tab_name_grid_recyclerview">Grid Recyclerview</string>
+    <string name="fragment_tab_name_picasso">Picasso</string>
+    <string name="fragment_tab_name_sqlite">Native SQLite</string>
+    <string name="fragment_tab_name_content_provider">Content Provider</string>
+    <string name="fragment_tab_name_realm">Realm</string>
+    <string name="fragment_tab_name_content_provider_bis">Content Provider II</string>
+    <string name="fragment_tab_name_shared_preferences">Shared Preferences</string>
+    <string name="fragment_tab_name_files">Files</string>
+    <string name="fragment_tab_name_notifications">Notifications</string>
+    <string name="fragment_tab_name_job_scheduling">Job Scheduling</string>
+    <string name="fragment_tab_name_broadcast_receivers">Broadcast Receivers</string>
+    <string name="fragment_tab_name_widgets">Widgets</string>
+
+    <!-- Portfolio Item Activity's Fragments' Info -->
+    <string name="fragment_info_linear_vertical_recyclerview">Fragment where you can see a list of items displayed vertically in a RecyclerView.</string>
+    <string name="fragment_info_card_grid_recyclerview">Fragment where you can see a list of card items displayed vertically in a Grid RecyclerView.</string>
+    <string name="fragment_info_grid_recyclerview">Fragment where you can see a list of items displayed vertically in a Grid RecyclerView.</string>
+    <string name="fragment_info_linear_horizontal_recyclerview">Fragment where you can see various lists of card items displayed horizontally in several RecyclerViews.</string>
+    <string name="fragment_info_native_http">Fragment where you can see a list of items downloaded through a native HTTP connection.</string>
+    <string name="fragment_info_volley">Fragment where you can see a list of items downloaded through the Volley library.</string>
+    <string name="fragment_info_okhttp">Fragment where you can see a list of items downloaded through the Okhttp library.</string>
+    <string name="fragment_info_retrofit">Fragment where you can see a list of items downloaded through the Retrofit library and parsed with the GSON one.</string>
+    <string name="fragment_info_sqlite">Fragment where you can perform all CRUD operations on the app’s contact database (the contact database is also accessed by the Content Provider fragment, so do not be surprised if you see the exact same data there).</string>
+    <string name="fragment_info_content_provider">Fragment where you can perform all CRUD operations on the app\'s contact database through the app\'s Content Provider (the contact database is also accessed by the Native SQLite fragment, so do not be surprised if you see the exact same data there).</string>
+    <string name="fragment_info_realm">Fragment where you can perform all CRUD operations on a Realm contact database (obviously different than the one used by the Native SQLite and the Content Provider fragments).</string>
+    <string name="fragment_info_content_provider_bis">Fragment where you can add an event to your calendar app or add a contact to your contact app (permission required for both).</string>
+    <string name="fragment_info_shared_preferences">Fragment where you can save some data in the shared preferences.</string>
+    <string name="fragment_info_files">Fragment where you can save a file on your device’s external storage (a picture in this case).</string>
+    <string name="fragment_info_native_json_parsing">Fragment where you can see JSON data parsed natively.</string>
+    <string name="fragment_info_gson_parsing">Fragment where you can see JSON data parsed through the GSON library.</string>
+    <string name="fragment_info_picasso"><![CDATA[
+        Fragment where you can see pictures being loaded by the Picasso library, from 3 different sources:<br/>
+        \u2022 The app’s resources.<br/>
+        \u2022 Internet.<br/>
+        \u2022 Your device’s stored images (permission required).]]>
+    </string>
+    <string name="fragment_info_notifications">Fragment where you can build and launch a custom notification.</string>
+    <string name="fragment_info_job_scheduling">Fragment where you can schedule a job choosing when it is going to start.</string>
+    <string name="fragment_info_broadcast_receivers">Fragment where you can check if you are connected to internet, if your device is charging, and if your headphones are plugged in.</string>
+    <string name="fragment_info_widgets">Fragment that just lets you know that if you go to your device’s home screen, you will be able to install the app’s widget.</string>
+    <string name="fragment_info_offline_movie_recyclerviews_possible_actions"><![CDATA[
+        \u2022 Click on the Add Floating Action Button in order to add a random movie to the list.<br/>
+        \u2022 Make a normal click on a movie item to get its information.<br/>
+        \u2022 Make a long click on a movie item to delete it from the list.]]>
+    </string>
+    <string name="fragment_info_offline_horizontal_movie_recyclerviews_possible_actions"><![CDATA[
+        \u2022 Swipe horizontally the 4 horizontal RecyclerViews.<br/>
+        \u2022 Click on any of the Add Floating Action Buttons in order to add a random movie to the corresponding RecyclerView.<br/>
+        \u2022 Make a normal click on a movie item to get its information.<br/>
+        \u2022 Make a long click on a movie item to delete it from the corresponding list.]]>
+    </string>
+    <string name="fragment_info_online_movie_recyclerviews_possible_actions"><![CDATA[
+        \u2022 Make a normal click on a movie item to get its information.]]>
+    </string>
+    <string name="fragment_info_databases_possible_actions"><![CDATA[
+        \u2022 Click on the Add Floating Action Button in order to add a contact to the database.<br/>
+        \u2022 Make a normal click on a contact item to modify its information.<br/>
+        \u2022 Make a long click on a contact item to delete it from the database.]]>
+    </string>
+    <string name="fragment_info_content_provider_bis_possible_actions"><![CDATA[
+        \u2022 Click on the Floating Action Button in order to toggle between the Calendar and the Contact modes.<br/>
+        \u2022 If the Calendar mode is on, add an event to your Google Calendar.<br/>
+        \u2022 If the Contact mode is on, add a contact to your device\'s contact list.]]>
+    </string>
+    <string name="fragment_info_shared_preferences_possible_actions"><![CDATA[
+        \u2022 Enter data in the fields on the screen.<br/>
+        \u2022 Leave the activity.<br/>
+        \u2022 Come back and check that the data is still there.]]>
+    </string>
+    <string name="fragment_info_files_possible_actions"><![CDATA[
+        \u2022 Take a picture.<br/>
+        \u2022 Then, choose to save it or delete it.]]>
+    </string>
+    <string name="fragment_picasso_possible_actions"><![CDATA[
+        \u2022 Click on the Floating Action Button to toggle between the different data sources (Network, Resources, or External Storage).]]>
+    </string>
+    <string name="fragment_info_notifications_possible_actions"><![CDATA[
+        \u2022 Customize the notification\'s title, and/or content, and/or image.<br/>
+        \u2022 Click on the \"Launch notification\" button to display it.]]>
+    </string>
+    <string name="fragment_info_job_scheduling_possible_actions"><![CDATA[
+        \u2022 Enter the time to wait, in seconds, before the job starts.<br/>
+        \u2022 Click on the \"Schedule job\" button.]]>
+    </string>
+    <string name="fragment_info_broadcast_receivers_possible_actions"><![CDATA[
+        \u2022 Register the different Broadcast Receivers, clicking on the corresponding button.<br/>
+        \u2022 Then, check if you are connected to internet, if your device is charging, or if your headphones are plugged in.]]>
+    </string>
+    <string name="fragment_info_widget_possible_actions"><![CDATA[
+        \u2022 Go to your device\'s home screen and install the app\'s widget.]]>
+    </string>
+    <string name="fragment_info_repeating_in_networking_activity">You can find this fragment in both the Networking Activity and the Third Party Libraries Activity.</string>
+    <string name="fragment_info_repeating_in_json_parsing_activity">You can find this fragment in both the JSON Parsing Activity and the Third Party Libraries Activity.</string>
+    <string name="fragment_info_repeating_in_data_persistence_activity">You can find this fragment in both the Data Persistence Activity and the Third Party Libraries Activity.</string>
+
+    <!-- Database fragments -->
+    <string name="base_database_fragment_no_data_in_database">No data in the database!</string>
+    <string name="base_database_fragment_database_error">Sorry, an error has occurred!</string>
+    <string name="base_database_fragment_item_added_correctly">has been added correctly!</string>
+    <string name="base_database_fragment_item_updated_correctly">has been modified correctly!</string>
+    <string name="base_database_fragment_item_deleted_correctly">has been deleted correctly!</string>
+    <string name="base_database_fragment_form_validation_checking_all_fields">Please, fill all the fields!</string>
+    <string name="base_database_fragment_form_validation_checking_email">Please, enter a valid email address!</string>
+    <string name="base_database_fragment_add_contact_dialog_title">Add a new contact</string>
+    <string name="base_database_fragment_update_contact_dialog_title">Update contact</string>
+    <string name="base_database_fragment_contact_alert_dialog_name_label">Name</string>
+    <string name="base_database_fragment_contact_alert_dialog_phone_number_label">Phone number</string>
+    <string name="base_database_fragment_contact_alert_dialog_email_label">Email address</string>
+    <string name="base_database_fragment_contact_alert_dialog_city_label">City</string>
+    <string name="base_database_fragment_contact_alert_dialog_choose_picture_label">Choose picture</string>
+
+    <!-- Realm fragment -->
+    <string name="realm_fragment_name" translatable="false">RealmFragment</string>
+
+    <!-- Movie fragments -->
+    <string name="base_movie_recyclerview_dialog_title_not_found">No title found for this movie</string>
+    <string name="base_movie_recyclerview_dialog_genre_not_found">No genre found for this movie</string>
+    <string name="base_movie_recyclerview_dialog_overview_not_found">No overview found for this movie</string>
+    <string name="base_movie_recyclerview_dialog_genre">Genre:</string>
+
+    <!-- Networking fragments -->
+    <string name="base_movie_recyclerview_fragment_cannot_get_data">We could not get any data. Please, try again later</string>
+
+    <!-- Horizontal RecyclerViews fragment -->
+    <string name="horizontal_recyclerviews_fragment_first_text">First set of movies</string>
+    <string name="horizontal_recyclerviews_fragment_second_text">Second set of movies</string>
+    <string name="horizontal_recyclerviews_fragment_third_text">Third set of movies</string>
+    <string name="horizontal_recyclerviews_fragment_fourth_text">Fourth set of movies</string>
+
+    <!-- Broadcast Receiver fragment -->
+    <string name="broadcast_receiver_fragment_connected">Connected to the internet!</string>
+    <string name="broadcast_receiver_fragment_not_connected">Not connected to the internet!</string>
+    <string name="broadcast_receiver_fragment_battery_charging">Battery is charging!</string>
+    <string name="broadcast_receiver_fragment_battery_not_charging">Battery is not charging!</string>
+    <string name="broadcast_receiver_fragment_headphones_plugged">Headphones are plugged!</string>
+    <string name="broadcast_receiver_fragment_headphones_unplugged">Headphones are unplugged!</string>
+    <string name="broadcast_receiver_fragment_not_registered">Not registered!</string>
+    <string name="broadcast_receiver_fragment_register">Register</string>
+    <string name="broadcast_receiver_fragment_unregister">Unregister</string>
+    <string name="broadcast_receiver_fragment_network_label">Network Broadcast Receiver</string>
+    <string name="broadcast_receiver_fragment_battery_state_label">Battery State Broadcast Receiver</string>
+    <string name="broadcast_receiver_fragment_headphones_state_label">Headphones State Broadcast Receiver</string>
+
+    <!-- Content Provider fragment Bis -->
+    <string name="content_provider_fragment_bis_calendar_no_access">No access to calendar</string>
+    <string name="content_provider_fragment_bis_choose_calendar">Choose a calendar</string>
+    <string name="content_provider_fragment_bis_sharedpref_last_added_event_id" translatable="false">last_created_event_id</string>
+    <string name="content_provider_fragment_bis_google_calendar_uri" translatable="false">content://com.android.calendar/events/</string>
+    <string name="content_provider_fragment_bis_no_added_events">You haven\'t added any event to the calendar!</string>
+    <string name="content_provider_fragment_bis_no_permission_or_calendar">No access to calendar and/or permission denied</string>
+    <string name="content_provider_fragment_bis_sharedpref_last_created_contact_id" translatable="false">last_created_contact_id</string>
+    <string name="content_provider_fragment_bis_no_added_contacts">You haven\'t added any contact at the moment!</string>
+    <string name="content_provider_fragment_bis_contact_does_not_exist_anymore">The contact does not exist anymore!</string>
+    <string name="content_provider_fragment_bis_validation_event_name">Please, enter a name for your event!</string>
+    <string name="content_provider_fragment_bis_validation_event_description">Please, enter a description for your event!</string>
+    <string name="content_provider_fragment_bis_validation_time">End time cannot be inferior to Begin time!</string>
+    <string name="content_provider_fragment_bis_event_added_to_calendar">The event has been added correctly to the chosen calendar!</string>
+    <string name="content_provider_fragment_bis_event_not_added">The event could not be added!</string>
+    <string name="content_provider_fragment_bis_validation_contact_name">Please, enter a name for your contact!</string>
+    <string name="content_provider_fragment_bis_validation_contact_phone_number">Please, enter a least a phone number or an email address!</string>
+    <string name="content_provider_fragment_bis_validation_email_address">Please, enter a valid email address!</string>
+    <string name="content_provider_fragment_bis_contact_added">The contact has been added successfully</string>
+    <string name="content_provider_fragment_bis_contact_not_added">The contact could not be added!</string>
+    <string name="content_provider_fragment_bis_begin_time_label">Begin time</string>
+    <string name="content_provider_fragment_bis_end_time_label">End time</string>
+    <string name="content_provider_fragment_bis_choose_calendar_label">Choose calendar</string>
+    <string name="content_provider_fragment_bis_no_access_to_calendar_label">No access to calendar</string>
+    <string name="content_provider_fragment_bis_event_label">Event</string>
+    <string name="content_provider_fragment_bis_your_event_hint">Your event <xliff:g>&#8230;</xliff:g></string>
+    <string name="content_provider_fragment_bis_event_description_label">Event description</string>
+    <string name="content_provider_fragment_bis_event_description_hint">Your event description <xliff:g>&#8230;</xliff:g></string>
+    <string name="content_provider_fragment_bis_go_to_last_event_label">Go to last added event</string>
+    <string name="content_provider_fragment_bis_contact_name_label">Contact\'s name</string>
+    <string name="content_provider_fragment_bis_contact_name_hint">Enter contact\'s name</string>
+    <string name="content_provider_fragment_bis_contact_phone_label">Contact\'s phone number</string>
+    <string name="content_provider_fragment_bis_contact_phone_hint">Enter contact \'s phone number <xliff:g>&#8230;</xliff:g></string>
+    <string name="content_provider_fragment_bis_contact_email_label">Contact\'s email address</string>
+    <string name="content_provider_fragment_bis_contact_email_hint">Enter contact\'s email address</string>
+    <string name="content_provider_fragment_bis_add_contact_label">Add contact</string>
+    <string name="content_provider_fragment_bis_go_to_last_contact_label">Go to last added contact</string>
+    <string name="content_provider_fragment_bis_add_event_cardview_text">Add event</string>
+
+    <!-- Job Scheduling fragment -->
+    <string name="job_scheduling_fragment_job_scheduled_sharedpref" translatable="false">job_scheduling_job_scheduled</string>
+    <string name="job_scheduling_fragment_job_scheduled_delay" translatable="false">job_scheduling_job_delay</string>
+    <string name="job_scheduling_fragment_job_scheduled_default_time" translatable="false">default_time_in_seconds_for_job_scheduling_fragment</string>
+    <string name="job_scheduling_fragment_job_canceled">Job canceled!</string>
+    <string name="job_scheduling_fragment_enter_value">You must enter a time value!</string>
+    <string name="job_scheduling_fragment_value_range">Number must be inferior or equal to 9999!</string>
+    <string name="job_scheduling_fragment_cancel_job">Cancel job</string>
+    <string name="job_scheduling_fragment_start_job">Schedule job</string>
+    <string name="job_scheduling_fragment_notification_title">Notification started from the Job Scheduled</string>
+    <string name="job_scheduling_fragment_notification_content">Indeed, this notification has been started from the job you have scheduled!</string>
+    <string name="job_scheduling_fragment_job_scheduled_toast">Job scheduled! Please, wait about <xliff:g example="2" id="seconds">%1$d</xliff:g> seconds!</string>
+    <string name="job_scheduling_fragment_time_label">Enter, in seconds, the delay you want to wait before the job starts</string>
+
+    <!-- Shared Preferences fragment -->
+    <string name="shared_preferences_fragment_first_name" translatable="false">shared_preferences_fragment_first_name</string>
+    <string name="shared_preferences_fragment_family_name" translatable="false">shared_preferences_fragment_family_name</string>
+    <string name="shared_preferences_fragment_age" translatable="false">shared_preferences_fragment_age</string>
+    <string name="shared_preferences_fragment_java" translatable="false">shared_preferences_fragment_java</string>
+    <string name="shared_preferences_fragment_kotlin" translatable="false">shared_preferences_fragment_kotlin</string>
+    <string name="shared_preferences_fragment_csharp" translatable="false">shared_preferences_fragment_csharp</string>
+    <string name="shared_preferences_fragment_ruby" translatable="false">shared_preferences_fragment_ruby</string>
+    <string name="shared_preferences_fragment_python" translatable="false">shared_preferences_fragment_python</string>
+    <string name="shared_preferences_fragment_others" translatable="false">shared_preferences_fragment_others</string>
+    <string name="shared_preferences_fragment_first_name_label">First name</string>
+    <string name="shared_preferences_fragment_first_name_hint">Enter your first name <xliff:g> &#8230;</xliff:g></string>
+    <string name="shared_preferences_fragment_family_name_label">Family name</string>
+    <string name="shared_preferences_fragment_family_name_hint">Enter your family name <xliff:g>&#8230;</xliff:g></string>
+    <string name="shared_preferences_fragment_age_label">Age</string>
+    <string name="shared_preferences_fragment_age_hint">Enter your age <xliff:g>&#8230;</xliff:g></string>
+    <string name="shared_preferences_fragment_languages_label">Preferred programming languages</string>
+    <string name="shared_preferences_fragment_java_text" translatable="false">Java</string>
+    <string name="shared_preferences_fragment_kotlin_text" translatable="false">Kotlin</string>
+    <string name="shared_preferences_fragment_csharp_text" translatable="false">C#</string>
+    <string name="shared_preferences_fragment_ruby_text" translatable="false">Ruby</string>
+    <string name="shared_preferences_fragment_python_text" translatable="false">Python</string>
+    <string name="shared_preferences_fragment_others_text">Others</string>
+    <string name="shared_preferences_fragment_cardview_text">Close activity</string>
+
+    <!-- Notifications fragment -->
+    <string name="notifications_fragment_no_custom_content">You have not entered any custom content :)</string>
+    <string name="notifications_fragment_go_to_app_action">Go to app</string>
+    <string name="notifications_fragment_dismiss_action">Dismiss</string>
+    <string name="notifications_fragment_notification_title_label">Notification\'s title</string>
+    <string name="notifications_fragment_notification_content_label">Notification\'s content</string>
+    <string name="notifications_fragment_notification_choose_icon_label">Choose notification\'s icon</string>
+    <string name="notifications_fragment_start_notification">Launch notification</string>
+    <string name="notifications_fragment_no_custom_title">You have not entered any custom title :)</string>
+    <string name="notifications_fragment_picture_error">There has been an error with the piture!</string>
+    <string name="notification_data_bundle_picture_uri" translatable="false">notification_selected_picture_uri</string>
+    <string name="notification_data_bundle_title" translatable="false">notification_title</string>
+    <string name="notification_data_bundle_content" translatable="false">notification_content</string>
+
+    <!-- File fragment -->
+    <string name="file_fragment_image_deleted_correctly">The image has been deleted correctly!</string>
+    <string name="file_fragment_no_image_to_delete">There is no image to delete</string>
+    <string name="file_fragment_image_saved">Image saved successfully!</string>
+
+    <!-- Picasso Fragment -->
+    <string name="picasso_fragment_menu_resources">From app\'s resources</string>
+    <string name="picasso_fragment_menu_network">From the internet</string>
+    <string name="picasso_fragment_menu_files">From the mobile\'s storage</string>
+    <string name="picasso_fragment_choose_source">Choose source</string>
+    <string name="picasso_fragment_resource_mode_already">You already are in Resource Mode!</string>
+    <string name="picasso_fragment_network_mode_already">You already are in Network Mode!</string>
+    <string name="picasso_fragment_file_mode_already">You already are in File Mode!</string>
+    <string name="picasso_fragment_no_picture_in_device">There are no pictures in the phone\'s gallery</string>
+
+    <!-- Settings -->
+    <string name="settings_activity_title">Settings</string>
+    <string name="settings_checkbox_summary_off">No</string>
+    <string name="settings_checkbox_summary_on">Yes</string>
+    <string name="settings_checkbox_summary_title">Sort movies from Network by vote average</string>
+    <string name="settings_list_title">Year to filter movies from Network</string>
+    <string name="settings_edittext_title">Default time, in seconds, for the Job Scheduling fragment</string>
+    <string name="settings_fragment_number_validation">Please, enter a number between 1 and 9999</string>
+    <string name="settings_sort_by_vote_average_sharedpref" translatable="false">sort_by_vote_average</string>
+    <string name="settings_year_for_filtering_network_request_sharedpref" translatable="false">year_for_filtering_network_request</string>
+
+    <!-- Widget -->
+    <string name="widget_provider_last_time_sharedpref" translatable="false">last_time_millis</string>
+    <string name="widget_provider_app_never_been_opened">App never been opened!</string>
+    <string name="widget_small_last_time_text">Last time:</string>
+    <string name="widget_fragment_textview_content">This App comes with a widget. Do not hesitate to go to your Home Screen and check it out!</string>
+
+    <!-- Permissions -->
+    <string name="permission_granted">Permission granted!</string>
+    <string name="permission_denied">Permission denied!</string>
+
+    <!-- Content Provider -->
+    <string name="content_provider_unknown_uri_exception">Unknown uri: </string>
+
+    <!-- The movie database -->
+    <string name="networking_scheme" translatable="false">https</string>
+    <string name="networking_movies_list_content_authority" translatable="false">api.themoviedb.org</string>
+    <string name="networking_movies_list_first_path" translatable="false">3</string>
+    <string name="networking_movies_list_second_path" translatable="false">discover</string>
+    <string name="networking_movies_list_third_path" translatable="false">movie</string>
+    <string name="networking_movies_list_year_release_parameter" translatable="false">primary_release_year</string>
+    <string name="networking_movies_list_sort_by_parameter" translatable="false">sort_by</string>
+    <string name="networking_movies_list_with_genres_parameter" translatable="false">with_genres</string>
+    <string name="networking_movies_list_with_people_parameter" translatable="false">with_people</string>
+    <string name="networking_movies_list_vote_average_desc" translatable="false">vote_average.desc</string>
+    <string name="networking_movies_list_api_key_parameter" translatable="false">api_key</string>
+    <string name="the_movie_database_web_api_key">e2176da6f0983c4242a2f36baab5a308</string>
+    <string name="networking_image_content_authority" translatable="false">image.tmdb.org</string>
+    <string name="networking_image_first_path" translatable="false">t</string>
+    <string name="networking_image_second_path" translatable="false">p</string>
+    <string name="networking_image_first_poster_size" translatable="false">w92</string>
+    <string name="networking_image_second_poster_size" translatable="false">w154</string>
+    <string name="networking_image_third_poster_size" translatable="false">w185</string>
+    <string name="networking_image_fourth_poster_size" translatable="false">w342</string>
+    <string name="networking_image_fifth_poster_size" translatable="false">w500</string>
+    <string name="networking_image_sixth_poster_size" translatable="false">w780</string>
+    <string name="networking_image_seventh_poster_size" translatable="false">original</string>
+    <string name="networking_year_2014_for_http_request" translatable="false">2014</string>
+    <string name="networking_year_2015_for_http_request" translatable="false">2015</string>
+    <string name="networking_year_2016_for_http_request" translatable="false">2016</string>
+    <string name="networking_year_2017_for_http_request" translatable="false">2017</string>
+
+    <!-- Movie Types -->
+    <string name="movie_type_action">Action</string>
+    <string name="movie_type_adventure">Adventure</string>
+    <string name="movie_type_animation">Animation</string>
+    <string name="movie_type_comedy">Comedy</string>
+    <string name="movie_type_crime">Crime</string>
+    <string name="movie_type_documentary">Documentary</string>
+    <string name="movie_type_drama">Drama</string>
+    <string name="movie_type_family">Family</string>
+    <string name="movie_type_fantasy">Fantasy</string>
+    <string name="movie_type_history">History</string>
+    <string name="movie_type_horror">Horror</string>
+    <string name="movie_type_music">Music</string>
+    <string name="movie_type_mystery">Mystery</string>
+    <string name="movie_type_romance">Romance</string>
+    <string name="movie_type_science_fiction">Science Fiction</string>
+    <string name="movie_type_tv_movie">TV Movie</string>
+    <string name="movie_type_thriller">Thriller</string>
+    <string name="movie_type_war">War</string>
+    <string name="movie_type_western">Western</string>
+
+    <!-- JSON files names -->
+    <string name="moviesJsonFile1" translatable="false">movieDataSample.json</string>
+    <string name="moviesJsonFile2" translatable="false">movieDataSample2.json</string>
+    <string name="moviesJsonFile3" translatable="false">movieDataSample3.json</string>
+    <string name="moviesJsonFile4" translatable="false">movieDataSample4.json</string>
+
+    <!-- JSON File properties -->
+    <string name="json_file_properties_results_array" translatable="false">results</string>
+    <string name="json_file_properties_title" translatable="false">title</string>
+    <string name="json_file_properties_poster_path" translatable="false">poster_path</string>
+    <string name="json_file_properties_genre_ids" translatable="false">genre_ids</string>
+    <string name="json_file_properties_vote_average" translatable="false">vote_average</string>
+    <string name="json_file_properties_overview" translatable="false">overview</string>
+    <string name="json_file_properties_release_date" translatable="false">release_date</string>
+
+    <!-- Picasso Network's Images Url List-->
+    <string name="picasso_network_base_url" translatable="false">http://www.gaelmarhic.com/android_portfolio_resources/</string>
+    <string name="picasso_network_path_london" translatable="false">london</string>
+    <string name="picasso_network_path_new_york" translatable="false">new_york</string>
+    <string name="picasso_network_path_paris" translatable="false">paris</string>
+    <string name="picasso_network_path_berlin" translatable="false">berlin</string>
+    <string name="picasso_network_path_san_francisco" translatable="false">san_francisco</string>
+    <string name="picasso_network_path_washington" translatable="false">washington</string>
+    <string name="picasso_network_path_shanghai" translatable="false">shanghai</string>
+    <string name="picasso_network_path_venice" translatable="false">venice</string>
+    <string name="picasso_network_path_greece" translatable="false">greece</string>
+    <string name="picasso_network_path_japan" translatable="false">japan</string>
+    <string name="picasso_network_path_canada" translatable="false">canada</string>
+    <string name="picasso_network_path_new_orleans" translatable="false">new_orleans</string>
+    <string name="picasso_network_path_caribbean" translatable="false">caribbean</string>
+    <string name="picasso_network_path_bora_bora" translatable="false">bora_bora</string>
+    <string name="picasso_network_path_mont_saint_michel" translatable="false">mont_saint_michel</string>
+    <string name="picasso_network_path_taj_mahal" translatable="false">taj_mahal</string>
+    <string name="picasso_network_path_rome" translatable="false">rome</string>
+    <string name="picasso_network_path_toronto" translatable="false">toronto</string>
+    <string name="picasso_network_path_miami" translatable="false">miami</string>
+    <string name="picasso_network_path_sydney" translatable="false">sydney</string>
+    <string name="picasso_network_path_chicago" translatable="false">chicago</string>
+    <string name="picasso_network_path_kuala_lumpur" translatable="false">kuala_lumpur</string>
+    <string name="picasso_network_path_stockholm" translatable="false">stockholm</string>
+    <string name="picasso_network_path_valencia" translatable="false">valencia</string>
+
+    <!-- SQLite Database initial dummy data -->
+    <string name="sqlite_database_initial_dummy_data_neymar_name" translatable="false">Neymar Jr</string>
+    <string name="sqlite_database_initial_dummy_data_neymar_phone" translatable="false">1234567890</string>
+    <string name="sqlite_database_initial_dummy_data_neymar_email" translatable="false">neymar_junior@psg.fr</string>
+    <string name="sqlite_database_initial_dummy_data_neymar_city" translatable="false">Paris</string>
+    <string name="sqlite_database_initial_dummy_data_neymar_picture_uri" translatable="false">file:///android_asset/neymar.jpg</string>
+    <string name="sqlite_database_initial_dummy_data_will_smith_name" translatable="false">Will Smith</string>
+    <string name="sqlite_database_initial_dummy_data_will_smith_phone" translatable="false">0246808642</string>
+    <string name="sqlite_database_initial_dummy_data_will_smith_email" translatable="false">will_smith@meninblack.com</string>
+    <string name="sqlite_database_initial_dummy_data_will_smith_city" translatable="false">Los Angeles</string>
+    <string name="sqlite_database_initial_dummy_data_will_smith_picture_uri" translatable="false">file:///android_asset/will_smith.jpg</string>
+    <string name="sqlite_database_initial_dummy_data_zidane_name" translatable="false">Zinedine \'Zizou\' Zidane</string>
+    <string name="sqlite_database_initial_dummy_data_zidane_phone" translatable="false">135797531</string>
+    <string name="sqlite_database_initial_dummy_data_zidane_email" translatable="false">zizou@championsleague.eu</string>
+    <string name="sqlite_database_initial_dummy_data_zidane_city" translatable="false">Madrid</string>
+    <string name="sqlite_database_initial_dummy_data_zidane_picture_uri" translatable="false">file:///android_asset/zidane.jpg</string>
+    <string name="sqlite_database_initial_dummy_my_name" translatable="false">Gaël Marhic</string>
+    <string name="sqlite_database_initial_dummy_data_my_phone" translatable="false">+34 622 20 68 28</string>
+    <string name="sqlite_database_initial_dummy_data_my_email" translatable="false">gael.marhic.pro@gmail.com</string>
+    <string name="sqlite_database_initial_dummy_data_my_city" translatable="false">L\'Hospitalet de Llobregat</string>
+    <string name="sqlite_database_initial_dummy_data_my_picture_uri" translatable="false">file:///android_asset/gael.jpg</string>
+
+    <!-- Deleting Alert Dialogs -->
+    <string name="various_fragments_delete_dialog_delete_confirmation">Are you sure you want to delete this item from the list?</string>
+
+    <!-- Snack Bar -->
+    <string name="snack_bar_description_label">Description:</string>
+    <string name="snack_bar_possible_actions_label">Possible actions:</string>
+    <string name="snack_bar_repeating_fragment_label">Repeating fragment:</string>
+
+    <!-- Tap Targets -->
+    <string name="tap_targets_main_activity_first_time" translatable="false">main_activity_first_time</string>
+    <string name="tap_targets_portfolio_item_activity_first_time" translatable="false">portfolio_item_activity_first_time</string>
+    <string name="tap_targets_main_activity_navigation_drawer_button">Click on this button to access to my different Web pages!</string>
+    <string name="tap_targets_main_activity_share_button">Click on this button to share the App!</string>
+    <string name="tap_targets_main_activity_floating_action_button">Click on this button to get in touch with me!</string>
+    <string name="tap_targets_portfolio_item_activity_info_button">Click on this button to get information about the fragment that is being displayed!</string>
+    <string name="tap_targets_portfolio_item_activity_settings_overflow">Click here to get to the Settings Activity!</string>
+
+</resources>

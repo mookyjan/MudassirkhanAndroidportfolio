@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/network_movie_sorted_by_vote_average_default"
+        android:layout="@layout/custom_preference"
+        android:summaryOff="@string/settings_checkbox_summary_off"
+        android:summaryOn="@string/settings_checkbox_summary_on"
+        android:title="@string/settings_checkbox_summary_title"
+        app:key="@string/settings_sort_by_vote_average_sharedpref" />
+
+    <ListPreference
+        android:defaultValue="@string/networking_year_2016_for_http_request"
+        android:entries="@array/years_to_filter_from_network_array"
+        android:entryValues="@array/years_to_filter_from_network_array"
+        android:key="@string/settings_year_for_filtering_network_request_sharedpref"
+        android:layout="@layout/custom_preference"
+        android:title="@string/settings_list_title" />
+
+    <EditTextPreference
+        android:defaultValue="@integer/settings_edittext_default_value"
+        android:key="@string/job_scheduling_fragment_job_scheduled_default_time"
+        android:layout="@layout/custom_preference"
+        android:title="@string/settings_edittext_title" />
+
+</PreferenceScreen>

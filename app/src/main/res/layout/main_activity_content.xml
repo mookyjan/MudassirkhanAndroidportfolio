@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/main_activity_appbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_activity_appbar_height"
+            android:elevation="@dimen/main_activity_toolbar_elevation"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/main_activity_collapsing_toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:collapsedTitleTextAppearance="@style/MainActivityCollapsedToolbarStyle"
+                app:contentScrim="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/montreal"
+                    app:layout_collapseMode="parallax" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/main_activity_toolbar_linear_layout_padding_bottom"
+                    android:paddingTop="@dimen/main_activity_toolbar_linear_layout_padding_top">
+
+                    <ImageView
+                        android:id="@+id/main_activity_photo"
+                        android:layout_width="@dimen/main_activity_toolbar_image_width"
+                        android:layout_height="@dimen/main_activity_toolbar_image_height"
+                        android:layout_marginTop="@dimen/main_activity_toolbar_imageview_margin_top"
+                        android:adjustViewBounds="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/main_activity_toolbar_title_padding_top"
+                        android:text="@string/main_activity_toolbar_name"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/main_activity_toolbar_textviews_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/main_activity_toolbar_description"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/main_activity_toolbar_textviews_size" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/main_activity_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:titleTextColor="@android:color/white"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/portfolio_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:splitMotionEvents="false"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/main_activity_fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        android:layout_marginEnd="@dimen/fab_margin_right"
+        app:menu_colorPressed="@color/colorPrimaryDark"
+        app:menu_colorRipple="@color/colorPrimaryDark"
+        fab:menu_colorNormal="@color/colorPrimary"
+        fab:menu_fab_hide_animation="@anim/hide_to_bottom"
+        fab:menu_fab_label="@string/floating_action_menu_label"
+        fab:menu_fab_show_animation="@anim/show_from_bottom"
+        fab:menu_icon="@mipmap/contact_icon">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_activity_phone_fab"
+            style="@style/MainActivityFabStyle"
+            android:src="@mipmap/phone_icon"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_label="@string/floating_action_phone_label"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_activity_sms_fab"
+            style="@style/MainActivityFabStyle"
+            android:src="@mipmap/sms_icon"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_label="@string/floating_action_sms_label"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_activity_email_fab"
+            style="@style/MainActivityFabStyle"
+            android:src="@mipmap/email_icon"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_label="@string/floating_action_email_label"
+            fab:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout>

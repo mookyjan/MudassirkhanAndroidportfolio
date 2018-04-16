@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Menu used in the Main Activity's Options Menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:icon="@mipmap/share_icon"
+        android:title="@string/intents_share"
+        app:showAsAction="ifRoom" />
+
+</menu>

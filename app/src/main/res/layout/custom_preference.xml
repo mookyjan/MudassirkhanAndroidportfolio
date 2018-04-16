@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:baselineAligned="false"
+    android:clipToPadding="false"
+    android:gravity="center_vertical"
+    android:minHeight="?listPreferredItemHeightSmall"
+    android:paddingEnd="?listPreferredItemPaddingRight"
+    android:paddingStart="?listPreferredItemPaddingLeft">
+
+    <FrameLayout
+        android:id="@+id/icon_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/custom_preference_frame_layout_margin_end"
+        android:layout_marginStart="@dimen/custom_preference_frame_layout_margin_start"
+        android:minWidth="@dimen/custom_preference_frame_layout_min_width"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/custom_preference_imageview_size"
+            android:maxWidth="@dimen/custom_preference_imageview_size"
+            android:scaleType="fitStart"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/custom_preference_content_linear_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/custom_preference_content_linear_layout_padding_top_bottom"
+        android:paddingTop="@dimen/custom_preference_content_linear_layout_padding_top_bottom">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="2"
+            android:textAppearance="?textAppearanceListItem" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            android:textColor="?android:textColorSecondary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/custom_preference_linear_layout_widget_frame_margin_end"
+        android:clipToPadding="false"
+        android:gravity="end|center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/custom_preference_linear_layout_widget_frame_padding_left_right"
+        android:paddingRight="@dimen/custom_preference_linear_layout_widget_frame_padding_left_right" />
+
+</LinearLayout>

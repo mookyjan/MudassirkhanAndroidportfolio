@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Used to customize our Widget's settings -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/android_portfolio_widget_provider"
+    android:initialLayout="@layout/android_portfolio_widget_provider"
+    android:minHeight="@dimen/widget_min_height"
+    android:minWidth="@dimen/widget_min_width"
+    android:previewImage="@drawable/round_profile_picture"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="@integer/widget_update_time_frame"
+    android:widgetCategory="home_screen" />

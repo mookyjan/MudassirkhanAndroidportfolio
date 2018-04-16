@@ -1,0 +1,15 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_fragment_layout_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/widget_fragment_textview_margin_top"
+        android:gravity="center"
+        android:text="@string/widget_fragment_textview_content"
+        android:textSize="@dimen/widget_fragment_textview_text_size"
+        android:textStyle="bold" />
+
+</android.support.v4.widget.NestedScrollView>

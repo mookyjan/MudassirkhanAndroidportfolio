@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Used for showing the Floating Action Menu -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="800"
+    android:fromYDelta="30%p"
+    android:interpolator="@android:interpolator/decelerate_quint"
+    android:toYDelta="0" />

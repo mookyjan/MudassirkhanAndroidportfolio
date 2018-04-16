@@ -1,0 +1,227 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/content_provider_fragment_bis_main_layout_padding">
+
+            <LinearLayout
+                android:id="@+id/calendar_content_provider_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextLabelStyle"
+                    android:text="@string/content_provider_fragment_bis_begin_time_label" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/begin_time_date_textview"
+                        android:layout_width="@dimen/content_provider_fragment_bis_content_textviews_width"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.75"
+                        android:textSize="@dimen/label_and_content_textviews_size" />
+
+                    <TextView
+                        android:id="@+id/begin_time_time_textview"
+                        android:layout_width="@dimen/content_provider_fragment_bis_content_textviews_width"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25"
+                        android:gravity="start"
+                        android:textAlignment="gravity"
+                        android:textSize="@dimen/label_and_content_textviews_size" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/TextLabelStyle"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_end_time_label_margin_top"
+                    android:text="@string/content_provider_fragment_bis_end_time_label" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/end_time_date_textview"
+                        android:layout_width="@dimen/content_provider_fragment_bis_content_textviews_width"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.75"
+                        android:textSize="@dimen/label_and_content_textviews_size" />
+
+                    <TextView
+                        android:id="@+id/end_time_time_textview"
+                        android:layout_width="@dimen/content_provider_fragment_bis_content_textviews_width"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25"
+                        android:gravity="start"
+                        android:textAlignment="gravity"
+                        android:textSize="@dimen/label_and_content_textviews_size" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/TextLabelStyle"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_choose_calendar_label_margin_top"
+                    android:text="@string/content_provider_fragment_bis_choose_calendar_label" />
+
+                <TextView
+                    android:id="@+id/calendar_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_provider_fragment_bis_no_access_to_calendar_label"
+                    android:textSize="@dimen/label_and_content_textviews_size" />
+
+                <TextView
+                    style="@style/TextLabelStyle"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_event_label_margin_top"
+                    android:text="@string/content_provider_fragment_bis_event_label" />
+
+                <EditText
+                    android:id="@+id/your_event_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/content_provider_fragment_bis_your_event_hint"
+                    android:inputType="text" />
+
+                <TextView
+                    style="@style/TextLabelStyle"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_event_description_label_margin_top"
+                    android:text="@string/content_provider_fragment_bis_event_description_label" />
+
+                <EditText
+                    android:id="@+id/your_event_description_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/content_provider_fragment_bis_event_description_hint"
+                    android:inputType="text" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/add_event_cardview_button"
+                    style="@style/CardViewButtonStyle"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_add_event_cardview_margin_top"
+                    android:elevation="@dimen/content_provider_fragment_bis_cardviews_elevation"
+                    app:cardCornerRadius="@dimen/content_provider_fragment_bis_cardviews_corner_radius">
+
+                    <TextView
+                        style="@style/CardViewButtonTextStyle"
+                        android:text="@string/content_provider_fragment_bis_add_event_cardview_text" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/go_to_calendar_cardview_button"
+                    style="@style/CardViewButtonStyle"
+                    android:layout_marginBottom="@dimen/content_provider_fragment_bis_goto_cardviews_margin_bottom"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_goto_cardviews_margin_top"
+                    android:elevation="@dimen/content_provider_fragment_bis_cardviews_elevation"
+                    app:cardCornerRadius="@dimen/content_provider_fragment_bis_cardviews_corner_radius">
+
+                    <TextView
+                        style="@style/CardViewButtonTextStyle"
+                        android:text="@string/content_provider_fragment_bis_go_to_last_event_label" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contact_content_provider_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/TextLabelStyle"
+                    android:text="@string/content_provider_fragment_bis_contact_name_label" />
+
+                <EditText
+                    android:id="@+id/contact_name_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/content_provider_fragment_bis_contact_name_hint"
+                    android:inputType="text" />
+
+                <TextView
+                    style="@style/TextLabelStyle"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_contact_phone_label_margin_top"
+                    android:text="@string/content_provider_fragment_bis_contact_phone_label" />
+
+                <EditText
+                    android:id="@+id/contact_number_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/content_provider_fragment_bis_contact_phone_hint"
+                    android:inputType="number" />
+
+                <TextView
+                    style="@style/TextLabelStyle"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_contact_email_label_margin_top"
+                    android:text="@string/content_provider_fragment_bis_contact_email_label" />
+
+                <EditText
+                    android:id="@+id/contact_email_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/content_provider_fragment_bis_contact_email_hint"
+                    android:inputType="textEmailAddress" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/add_contact_cardview_button"
+                    style="@style/CardViewButtonStyle"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_add_contact_cardview_button_margin_top"
+                    android:elevation="@dimen/content_provider_fragment_bis_cardviews_elevation"
+                    app:cardCornerRadius="@dimen/content_provider_fragment_bis_cardviews_corner_radius">
+
+                    <TextView
+                        style="@style/CardViewButtonTextStyle"
+                        android:text="@string/content_provider_fragment_bis_add_contact_label" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/go_to_contact_cardview_button"
+                    style="@style/CardViewButtonStyle"
+                    android:layout_marginBottom="@dimen/content_provider_fragment_bis_goto_cardviews_margin_bottom"
+                    android:layout_marginTop="@dimen/content_provider_fragment_bis_goto_cardviews_margin_top"
+                    android:elevation="@dimen/content_provider_fragment_bis_cardviews_elevation"
+                    app:cardCornerRadius="@dimen/content_provider_fragment_bis_cardviews_corner_radius">
+
+                    <TextView
+                        style="@style/CardViewButtonTextStyle"
+                        android:text="@string/content_provider_fragment_bis_go_to_last_contact_label" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/content_provider_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        android:layout_marginEnd="@dimen/fab_margin_right"
+        android:elevation="@dimen/content_provider_fragment_bis_fab_elevation"
+        android:src="@mipmap/swap_icon"
+        app:fabSize="normal" />
+
+</FrameLayout>

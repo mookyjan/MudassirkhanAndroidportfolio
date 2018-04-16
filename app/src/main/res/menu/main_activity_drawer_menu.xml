@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Menu used in the Main Activity's Navigation Drawer -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/navigation_drawer_websites_title">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_my_web_page"
+                android:icon="@mipmap/webpage_icon"
+                android:title="@string/navigation_drawer_websites_my_site" />
+
+            <item
+                android:id="@+id/nav_linkedin"
+                android:icon="@mipmap/linkedin_icon"
+                android:title="@string/navigation_drawer_websites_linkedin" />
+
+            <item
+                android:id="@+id/nav_github"
+                android:icon="@mipmap/github_icon"
+                android:title="@string/navigation_drawer_websites_github" />
+
+        </menu>
+
+    </item>
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/settings_icon_big"
+            android:title="@string/navigation_drawer_settings" />
+
+    </group>
+
+</menu>

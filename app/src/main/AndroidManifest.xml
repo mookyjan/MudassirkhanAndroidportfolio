@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mudassirkhan.androidportfolio">
+
+    <!-- Permissions that we will need in the App -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Since we use the camera in the App, it will prevent users that do not possess one from
+         downloading the App -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- Application properties -->
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/mudassir_khan_pic"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/mudassir_khan_pic"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivityTheme" />
+
+        <!-- Portfolio Items Activity -->
+        <activity
+            android:name=".ui.activities.PortfolioItemsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".ui.activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".ui.activities.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingsActivityTheme" />
+
+        <!-- Activity from the Picture Library we are using -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <!-- Service that we use to launch the Notification Tasks -->
+        <service
+            android:name=".services.NotificationIntentService"
+            android:exported="false" />
+
+        <!-- Service that we use to schedule a Job -->
+        <service
+            android:name=".services.NotificationJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+
+        <!-- Service that we use to populate our Widget's ListView -->
+        <service
+            android:name=".widget.WidgetListService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <!-- Provider that we create in order to access our SQLite Database -->
+        <provider
+            android:name=".data.ContactProvider"
+            android:authorities="com.mudassirkhan.androidportfolio"
+            android:exported="false" />
+
+        <!-- Provider that we use in order to be able to manipulate files on the phone -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Receiver that we use for our Widget to be able to work -->
+        <receiver android:name=".widget.AndroidPortfolioWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/android_portfolio_widget_provider_info" />
+        </receiver>
+
+    </application>
+
+</manifest>
