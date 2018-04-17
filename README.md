@@ -12,6 +12,4 @@ What you will find in this App:
 * Intents.
 * And many more things!
 
-![screenshot](https://user-images.githubusercontent.com/16627604/30522179-27adb6fa-9bcc-11e7-9ab4-65c123ca8ef5.png)
-
-Download the App clicking on this link: http://www.gaelmarhic.com/android_portfolio_resources/app-release.apk
+!

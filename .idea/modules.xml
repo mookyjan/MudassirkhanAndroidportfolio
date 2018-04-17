@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/My-Android-Portfolio.iml" filepath="$PROJECT_DIR$/My-Android-Portfolio.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taptargetview/taptargetview.iml" filepath="$PROJECT_DIR$/taptargetview/taptargetview.iml" />
     </modules>
   </component>
 </project>

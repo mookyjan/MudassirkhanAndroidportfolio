@@ -1,0 +1,19 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml:1:1-52
+INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml:1:1-52
+INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml:1:1-52
+	package
+		ADDED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml:1:11-50
+		INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml:1:1-52
+uses-sdk
+INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\My-Android-Portfolio\taptargetview\src\main\AndroidManifest.xml
