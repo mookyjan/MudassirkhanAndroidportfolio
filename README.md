@@ -12,4 +12,7 @@ What you will find in this App:
 * Intents.
 * And many more things!
 
+<<<<<<< HEAD
 !
+=======
+>>>>>>> 6c345d62b56128a9290fe151d20dc4966b4ae853
